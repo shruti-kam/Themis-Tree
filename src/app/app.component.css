@@ -1,0 +1,46 @@
+.header {
+	background-color: #0c0803;
+	height: 160px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+}
+
+.headerTop {
+	font-size: 10px;
+	color:#ddad7f;
+	text-align:right;
+	padding-top:10px;
+	padding-right:10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.styleLogo {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.styleLogoSize {
+	height: 80px;
+	width: 130px;
+}
+
+.tabs {
+	font-size: 15px;
+	color:#ddad7f;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.tabsDiv {
+	text-align: center; 
+	padding-top: 15px;
+}
+
+.content {
+	padding-top: 160px;
+}

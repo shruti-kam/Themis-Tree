@@ -1,0 +1,27 @@
+<div>
+  <div id="header" class="header">
+    <div class="headerTop">
+      <a style="padding-right: 10px">{{ghScheme | uppercase}}</a>
+      <a style="padding-right: 10px">{{appointment | uppercase}}</a>
+      <a style="padding-right: 10px" routerLink="/stores">{{stores | uppercase}}</a>
+    </div>
+    <div class="styleLogo">
+      <img class="styleLogoSize" src="{{logo}}">
+    </div>
+    <div class="tabsDiv">
+      <a class="tabs" >{{jewellery | uppercase}}</a>
+      <a class="tabs">{{collections | uppercase}}</a>
+      <a class="tabs">{{rivaah | uppercase}}</a>
+      <a class="tabs">{{insideT | uppercase}}</a>
+      <a class="tabs">{{stories | uppercase}}</a>
+      <a class="tabs">{{gift | uppercase}}</a>
+      <a class="tabs">{{mia | uppercase}}</a>
+      <a class="tabs">{{diamonds | uppercase}}</a>
+    </div>
+  </div>
+  <div class="content">
+  <router-outlet></router-outlet>
+  </div>
+  <div id="footer">
+  </div>
+</div>

@@ -1,0 +1,38 @@
+.content {
+	background-color: #3d280d;
+	color: #000000;
+	height:400px;
+	top: 160px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	padding-top: 5px;
+	font-stretch: 200%;
+	font-size: 20px;
+}
+
+.inputList {
+	border: 1px solid #ddad7f;
+	background-color : #000000;
+	height: 50px;
+	width: 500px; 
+	color: #ddad7f;
+	text-align-last: center;
+}
+
+.findButton {
+	border: 1px solid #ddad7f;
+	background-color : #000000;
+	height: 50px;
+	width: 100px; 
+	color: #ddad7f;
+}
+
+.completeList {
+	border: 1px solid #ddad7f;
+	background-color : #000000;
+	height: 40px;
+	width: 200px; 
+	color: #ddad7f;
+}
