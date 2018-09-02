@@ -1,6 +1,6 @@
 <div class="content">
   <h1>{{title}}</h1>
-  <form action="" [formGroup]="storeForm" novalidate>
+  <form  [formGroup]="storeForm" novalidate>
     <select class="inputList" #city formControlName="selectCity" >
     <option *ngFor="let store of stores" class="inputList">{{store | uppercase}}</option>
     </select>

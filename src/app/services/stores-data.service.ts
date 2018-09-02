@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
-import { storesList } from '../stores/stores-list';
+import { storesList } from '../store-locator/stores-list';
 
 @Injectable()
 export class StoresDataService {
 
   constructor() { }
   
-  getStoresList() {
-    return storesList;
+  getStoresList(city: any) {
+    return storesList[0];
   }
 
 }

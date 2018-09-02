@@ -10,6 +10,9 @@
 	padding-top: 5px;
 	font-stretch: 200%;
 	font-size: 15px;
+	vertical-align: middle;
+	margin: auto;
+	overflow: auto;
 }
 
 .inputList {

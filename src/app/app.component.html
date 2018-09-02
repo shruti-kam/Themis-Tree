@@ -2,8 +2,8 @@
   <div id="header" class="header">
     <div class="headerTop">
       <a style="padding-right: 10px">{{ghScheme | uppercase}}</a>
-      <a style="padding-right: 10px">{{appointment | uppercase}}</a>
-      <a style="padding-right: 10px" routerLink="/stores">{{stores | uppercase}}</a>
+      <a style="padding-right: 10px" routerLink="/appointment">{{appointment | uppercase}}</a>
+      <a style="padding-right: 10px" routerLink="/stores" [routerLinkActive]="'active bold'">{{stores | uppercase}}</a>
     </div>
     <div class="styleLogo">
       <img class="styleLogoSize" src="{{logo}}">
